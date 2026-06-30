@@ -1,7 +1,7 @@
 <h1 align="center">John Mikel Regida</h1>
 
 <p align="center">
-  <b>Lead Data Architect</b> — data platforms, schema &amp; data contracts, and on-device AI<br>
+  <b>Principal Platform Architect</b> — data platforms, schema &amp; data contracts, and on-device AI<br>
   London, United Kingdom · 10+ years shipping data-intensive systems
 </p>
 
