@@ -32,10 +32,12 @@ No servers, no API keys; the compute is yours. Live at **[johnmikelregida.com/la
 
 ### 🔧 Open source
 
-- **[seip](https://github.com/johnmikel/seip)** — Schema Evolution Intent Protocol: a Git-native protocol + CLI that makes breaking schema changes explicit, reviewable, and enforceable in CI.
-- **[zeno-mobile-runner](https://github.com/johnmikel/zeno-mobile-runner)** — agent-native mobile test runner for React Native, Expo, Flutter and native iOS/Android, with an MCP server so agents can drive real device tests.
-- **[metricspec](https://github.com/johnmikel/metricspec)** — unit tests for business metrics; contract testing for analytical meaning.
-- **[dataproduct-kit](https://github.com/johnmikel/dataproduct-kit)** — CLI toolkit for validating agent-ready data products from local manifests.
+A through-line: **make data trustworthy before anyone consumes it** — contracts, schemas, and metrics enforced as CI gates, not caught after the fact.
+
+- **[dataproduct-kit](https://github.com/johnmikel/dataproduct-kit)** — CLI + GitHub Action that turns data-product trust (contracts, quality, freshness, semantics, policy) into a CI gate. *Python · DuckDB · on PyPI · 80 tests.*
+- **[zeno-mobile-runner](https://github.com/johnmikel/zeno-mobile-runner)** — agent-native mobile UI automation: one Zig binary drives real iOS/Android devices over MCP / JSON-RPC and emits replayable trace evidence. *~16.5k lines of Zig · on npm.*
+- **[metricspec](https://github.com/johnmikel/metricspec)** — unit tests for business metrics: pin a SQL query's expected result as a versioned contract and fail CI on a row-level diff. *Python · DuckDB · 100 tests · `mypy --strict`.*
+- **[seip](https://github.com/johnmikel/seip)** — Schema Evolution Intent Protocol: a Git-native protocol + zero-dependency CLI/Action that makes breaking schema changes explicit, reviewable, and enforceable in CI. *Node · 45 tests.*
 
 ### 🏗️ Selected work
 
